@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator with Famous Birthdays</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<video autoplay loop muted id="background-video">
+    <source src="background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="calculator">
+    <div class="screen">
+        <h1>Age Calculator</h1>
+        <p id="result">Select your birthdate</p>
+    </div>
+    <div class="buttons">
+        <label for="day"></label><select id="day">
+            <option value="">Day</option>
+        </select>
+        <label for="month"></label><select id="month">
+            <option value="">Month</option>
+        </select>
+        <label for="year"></label><select id="year">
+            <option value="">Year</option>
+        </select>
+        <button id="calculate">Calculate</button>
+    </div>
+    <div id="famous-people">
+        <h2>Famous Person Born on Your Birth Date</h2>
+        <div id="famous-list"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
