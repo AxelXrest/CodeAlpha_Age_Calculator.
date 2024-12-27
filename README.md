@@ -35,7 +35,7 @@ The Age Calculator is a web application built with JavaScript that enables users
   The background features a looping video that creates an immersive atmosphere while not distracting from the main content.
 
 ## Usage
-![Age Calculator Demo](https://i.imgur.com/QFtfumu.gif)
+![Age Calculator Demo](demo.gif)
 
 ## Getting Started
 
